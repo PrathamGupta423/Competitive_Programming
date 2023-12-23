@@ -39,7 +39,7 @@ int main() {
         }
         else {
             cout << "YES" << endl;
-            cout << a * b << " " << a * (b + 1) << " " << a * (b + 2) << endl;
+            cout << a * b << " " << a * (b + 1) << " " << a * (2*b + 1) << endl;
         }
     }
     return 0;
